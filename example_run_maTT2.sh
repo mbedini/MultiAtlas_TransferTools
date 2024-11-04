@@ -44,7 +44,7 @@ export scriptBaseDir=${PWD}
 # schaefer100-yeo17 schaefer200-yeo17 schaefer300-yeo17 schaefer400-yeo17 
 # schaefer500-yeo17 shen268cort yeo17dil
 #
-# example line to explore some atlases I would like to work with in the RetinoMaps project
+# example line to explore some atlases
 export atlasList="hcp-mmp-b schaefer100-yeo17 schaefer400-yeo17 yeo17dil"
 
 # if you have a specific install of python that you'd like to
@@ -58,9 +58,9 @@ export atlasList="hcp-mmp-b schaefer100-yeo17 schaefer400-yeo17 yeo17dil"
 
 # subject variables
 
-subj="sub-03"
-inputFSDir="/media/marc_be/marc_be_flashSD/RetinoMaps/atlases/freesurfer/${subj}"
-outputDir="/media/marc_be/marc_be_flashSD/RetinoMaps/atlases/multiAtlasTT_test/${subj}"
+subj="sub-XX"
+inputFSDir="/path/to/freesurfer/freesurfer/${subj}"
+outputDir="/multiAtlasTToptimized_test/${subj}"
 mkdir -p ${outputDir} || \
    { echo "could not make dir" ; exit 0 ; } # safe-ish mkdir
 
