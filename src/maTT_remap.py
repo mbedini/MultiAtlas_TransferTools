@@ -3,7 +3,7 @@ __author__ = 'jfaskowitz'
 '''
 josh faskowitz
 Indiana University
-Computational Cognitive Neurosciene Lab
+Computational Cognitive Neuroscience Lab
 
 Copyright (c) 2018 Josh Faskowitz
 See LICENSE file for license
@@ -22,7 +22,7 @@ def main():
     i_img = nib.load(i_file)
     i_data = i_img.get_fdata()
 
-    # get labels from first colum of LUT table
+    # get labels from first column of LUT table
     labels = [x.split()[0] for x in open(labels_file).readlines()]  
     names = [x.split()[1] for x in open(labels_file).readlines()]  
 

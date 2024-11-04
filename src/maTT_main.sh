@@ -555,7 +555,7 @@ do
 done # loop through atlas list
 
 # lets remove the temp fsaverage dir we made
-# and move other back, if the bk dir is ther
+# and move other back, if the backup dir is there
 if [[ -d ${fsAvg}.bk ]]
 then
     ls -d ${fsAvg} && rm -r ${fsAvg} \
@@ -586,7 +586,7 @@ source ${scriptBaseDir}/src/maTT_funcs.sh
 ####################################################################
 ####################################################################
 
-# run main with input args from shell scrip call
+# run main with input args from shell script call
 main "$@"
 
 

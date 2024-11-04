@@ -95,7 +95,7 @@ get_subcort_frm_aparcAseg()
     if [[ -n ${py_bin} ]] ; then
         echo "using py given to script"
     else
-        py_bin=python
+        py_bin=python3
     fi
     # instead, just remap
     # inputs to python script -->
