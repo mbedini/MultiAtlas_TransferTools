@@ -480,7 +480,7 @@ do
     if [[ -n ${py_bin} ]] ; then
         echo "using py given to script"
     else
-        py_bin=python
+        py_bin=python3
     fi
     # inputs to python script -->
     #  i_file = str(argv[1])
